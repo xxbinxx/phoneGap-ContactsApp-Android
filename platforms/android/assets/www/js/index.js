@@ -46,7 +46,6 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
         console.log('Received Event: ' + id);
     },
     // save contact
@@ -121,8 +120,8 @@ var app = {
     },
     // Find all the contacts and log them to console
     find: function(filter) {
-        vvar options = new ContactFindOptions();
-        options.filter = filter;
+        var options = new ContactFindOptions();
+        options.filter = this.filter;
         options.multiple = "true";
         var fields = ["displayName", "name"];
         navigator.contacts.find(fields, logToConsole, app.onError, options);
