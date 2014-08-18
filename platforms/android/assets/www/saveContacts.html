@@ -1,0 +1,45 @@
+<!-- 
+  @author: Bineet kumar gaur
+  copyright 2014
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Hello contacts</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Sample app</h1>
+            <div id="status-area"></div>
+            <div id="contactSave">
+                <p class="event listening">Save new contact</p>
+                <p class="event received">Contact saved</p>
+            </div>
+        </br></br>
+            <!-- <form> -->
+                <label for="first">First</label>
+                <br/>
+                <input type="text" id="first" />
+                <br/>
+                <label for="last">Last</label>
+                <br/>
+                <input type="text" id="last" />
+                <br/>
+                <label for="note">Note</label>
+                <br/>
+                <input type="text" id="note">
+                <br/>
+                <input type="button" id="btnSave" value="SaveContact" onclick="app.saveContacts();"/>
+            <!-- </form> -->
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>                      
+    </body>
+</html>
