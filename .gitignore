@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -34,3 +35,10 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+platforms/android/ant-build/saveContact2-debug.apk
+platforms/android/ant-build/saveContact2-debug-unaligned.apk
+platforms/android/ant-build/dexedLibs/classes-084f933fbf0b2bbba705cceec17a2756.jar
+platforms/android/ant-build/saveContact2-debug.apk
+platforms/android/ant-build/saveContact2-debug-unaligned.apk
+platforms/android/ant-build/saveContact2-debug.apk
+platforms/android/ant-build/saveContact2-debug-unaligned.apk
